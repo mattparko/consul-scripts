@@ -1,0 +1,10 @@
+---
+test_data_set:
+  syd:
+    nagios:
+      relay1: syd_relay1.parko.lab
+      relay2: syd_relay2.parko.lab
+  mel:
+    nagios:
+      relay1: mel_relay1.parko.lab
+      relay2: mel_relay2.parko.lab

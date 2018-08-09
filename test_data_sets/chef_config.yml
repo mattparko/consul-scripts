@@ -1,0 +1,6 @@
+---
+test_data_set:
+  chef_config:
+    global:
+      chef_org: parko
+      chef_reporting: true

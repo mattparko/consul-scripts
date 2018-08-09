@@ -1,0 +1,30 @@
+---
+test_data_set:
+  workloads:
+    server1.parko.lab:
+      environment: Production
+      region: syd
+      optional_cookbooks:
+        apache: true
+        maridb: true
+        postgres: false
+      project: parko_lab
+      chef_runlist: linux_soe
+    server2.parko.lab:
+      environment: Development
+      region: syd
+      optional_cookbooks:
+        apache: true
+        maridb: false
+        postgres: true
+      project: parko_lab
+      chef_runlist: linux_soe
+    server3.parko.lab:
+      environment: Production
+      region: mel
+      optional_cookbooks:
+        apache: true
+        maridb: true
+        postgres: false
+      project: parko_lab
+      chef_runlist: linux_soe
